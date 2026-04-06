@@ -32,3 +32,8 @@ Tras alcanzar el umbral de `maxretry = 3`, **Fail2ban** ejecutó el bloqueo din�
 Currently banned: 1  |  Total banned: 1
 Banned IP list: 192.168.1.XXX
 
+---
+### 🤖 Metodología y Mentoría
+Este laboratorio fue desarrollado bajo un esquema de **aprendizaje guiado**, utilizando **Inteligencia Artificial** como mentor técnico para la arquitectura del entorno, la lógica de los scripts en Bash/Python y la documentación técnica profesional. Este enfoque permitió acelerar la comprensión de conceptos de **Ciberseguridad Defensiva** y mejores prácticas en **DevOps**.
+
+
