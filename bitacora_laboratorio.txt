@@ -1,0 +1,25 @@
+============================================================
+BITÁCORA DE LABORATORIO: DEFENSA ACTIVA Y MONITOREO (IPS)
+============================================================
+Fecha: 06 de Abril, 2026
+Responsable: Luz Talavera Martínez
+Entorno: Ubuntu 24.04 LTS (Máquina Virtual Clonada)
+
+PASOS REALIZADOS:
+-----------------
+1. CLONACIÓN: Se creó un clon completo de la VM original para pruebas de seguridad.
+2. CONFIGURACIÓN SSH: Puerto modificado al 2222 (Hardening).
+3. INSTALACIÓN IPS: Se instaló y configuró Fail2ban para monitoreo de SSH.
+4. POLÍTICA DE BANEO: 
+   - Reintentos máximos (maxretry): 3
+   - Tiempo de baneo (bantime): 120s (2 min)
+5. DESARROLLO DE HERRAMIENTAS:
+   - monitor_tiempo_real.sh (Bash): Monitoreo de estado del firewall y bloqueos.
+   - auditor_forense_logs.py (Python): Análisis estadístico de intentos fallidos.
+
+RESULTADOS DE LA PRUEBA DE ATAQUE:
+----------------------------------
+- IP Atacante (Windows): Detectada exitosamente.
+- Acción: Bloqueo automático (Ban) tras 3 intentos fallidos.
+- Registro: Evento verificado en /var/log/auth.log.
+============================================================
