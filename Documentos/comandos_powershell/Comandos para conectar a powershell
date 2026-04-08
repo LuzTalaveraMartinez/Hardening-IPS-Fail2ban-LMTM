@@ -1,8 +1,0 @@
-sudo apr update
-sudo apt install openssh-server -y
-
-
-
-sudo apt && sudo apt install openssh-ser -y
-sudo systemctl enable --now ssh
-
