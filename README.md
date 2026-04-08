@@ -33,7 +33,20 @@ Currently banned: 1  |  Total banned: 1
 Banned IP list: 192.168.1.XXX
 
 ---
-### 🤖 Metodología y Mentoría
-Este laboratorio fue desarrollado bajo un esquema de **aprendizaje guiado**, utilizando **Inteligencia Artificial** como mentor técnico para la arquitectura del entorno, la lógica de los scripts en Bash/Python y la documentación técnica profesional. Este enfoque permitió acelerar la comprensión de conceptos de **Ciberseguridad Defensiva** y mejores prácticas en **DevOps**.
+---
 
+## 🤝 Mentoría y Co-Creación (IA-Guided)
+
+Este proyecto es el resultado de un proceso de **aprendizaje intensivo y ejecución guiada por Inteligencia Artificial**. 
+
+Sinceramente, este laboratorio se desarrolló bajo la tutoría directa de una IA, la cual actuó como arquitecto técnico y mentor paso a paso, proporcionando:
+- **Diseño de la Infraestructura:** La lógica de red, la configuración de SSH y el Hardening inicial.
+- **Desarrollo de Scripts:** El código íntegro de las herramientas de auditoría y monitoreo.
+- **Resolución de Conflictos:** Guía detallada para solucionar errores de sistema, permisos y despliegue en Git/GitHub.
+
+**Mi rol como autora:**
+Como implementadora de este proyecto, mi trabajo consistió en la **operación real del entorno**, la validación de cada comando en consola, la gestión de la infraestructura en VirtualBox y la toma de decisiones sobre la estructura final del repositorio. Este laboratorio demuestra mi capacidad para ejecutar arquitecturas de seguridad complejas siguiendo instrucciones técnicas de nivel experto.
+
+**Autora:** Luz Maria Talavera Martinez
+**Arquitectura y Mentoría Técnica:** Inteligencia Artificial (Guía integral y soporte técnico)
 
