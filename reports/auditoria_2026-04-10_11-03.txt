@@ -1,0 +1,24 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2026-04-10 11:03 -03
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000017s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.14 (Ubuntu Linux; protocol 2.0)
+25/tcp open  smtp    Postfix smtpd
+Service Info: Host:  labauditorianmap-VirtualBox.home; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 4.53 seconds
+
+--- DETALLES DE FAIL2BAN (Historial de Bloqueos) ---
+2026-04-07 21:07:12,427 fail2ban.actions        [6163]: NOTICE  [sshd] Ban 10.0.2.2
+--- Estado actual del Jail SSH ---
+Status for the jail: sshd
+|- Filter
+|  |- Currently failed:	0
+|  |- Total failed:	0
+|  `- File list:	/var/log/auth.log
+`- Actions
+   |- Currently banned:	0
+   |- Total banned:	0
+   `- Banned IP list:	

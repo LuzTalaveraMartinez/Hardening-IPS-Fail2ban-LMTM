@@ -1,0 +1,8 @@
+.cache/
+.config/
+.local/
+.sudo_as_admin_successful
+snap/
+Reporte_Auditoria_*
+*.log
+.bash_history

@@ -1,0 +1,10 @@
+# No subir los reportes generados (cada usuario generará los suyos)
+reports/*.txt
+
+# No subir archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# No subir archivos temporales de edición
+*.swp
+.DS_Store
